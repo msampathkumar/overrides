@@ -38,3 +38,11 @@ Usage
         @overrides
         def method(self):
             return 1
+
+
+.. code-block:: shell
+
+    >>> from my_test import SubClass
+    >>> ci = SubClass()
+    >>> ci.method()
+    1
